@@ -1,0 +1,38 @@
+{
+  "name": "Ontrein",
+  "version": "0.0.0",
+  "description": "Check whether you will catch the train",
+  "main": "server.js",
+  "dependencies": {
+    "browserify": "~2.36.1",
+    "d3": "~3.4.1",
+    "corslite": "~0.0.5",
+    "debounce": "~0.0.3",
+    "express": "~4.10.7",
+    "expect.js": "~0.2.0",
+    "fs": "~0.0.2",
+    "http": "~0.0.0",
+    "jquery": "~2.1.3",
+    "jshint": "~2.5.11",
+    "mapbox.js": "~1.5.2",
+    "morgan": "~1.5.1",
+    "mocha-phantomjs": "~3.5.2",
+    "nib": "~1.0.4",
+    "ns-api": "~1.1.1",
+    "phantomjs": "~1.9.13",
+    "polyline": "~0.0.3",
+    "prompt": "~0.2.14",
+    "sinon": "~1.7.3",
+    "smash": "~0.0.14",
+    "stylus": "~0.49.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.5"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Viktor Bonev, Laura Nijenhuis, Jenny Wu, Binchen Li",
+  "license": "BSD-2-Clause"
+}
